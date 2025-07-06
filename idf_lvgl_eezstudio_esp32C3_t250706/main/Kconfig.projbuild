@@ -1,0 +1,51 @@
+menu "Example Configuration"
+
+    choice EXAMPLE_LCD_CONTROLLER
+        prompt "LCD控制器型号"
+        default EXAMPLE_LCD_CONTROLLER_ST7789
+        help
+            选择LCD控制器型号
+
+        config EXAMPLE_LCD_CONTROLLER_ILI9341
+            bool "ILI9341"
+
+        config EXAMPLE_LCD_CONTROLLER_GC9A01
+            bool "GC9A01"
+        
+        config EXAMPLE_LCD_CONTROLLER_ST7789
+            bool "ST7789"
+    endchoice
+
+    choice EXAMPLE_LCD_INPUT_TYPE
+        prompt "LCD输入类型选择（触摸或键盘）"
+        default EXAMPLE_LCD_TOUCH_ENABLED
+        help
+            选择LCD输入类型，只能选一种：触摸或键盘。
+
+        config EXAMPLE_LCD_TOUCH_ENABLED
+            bool "启用LCD触摸"
+            help
+                启用此选项以使用显示屏触摸，可选择触摸控制器。
+
+        # Touch controller selection is only available when Touch is enabled
+        choice EXAMPLE_LCD_TOUCH_CONTROLLER
+            prompt "LCD触摸控制器型号"
+            depends on EXAMPLE_LCD_TOUCH_ENABLED
+            default EXAMPLE_LCD_TOUCH_CONTROLLER_FT6336
+            help
+                选择LCD触摸控制器型号
+
+            config EXAMPLE_LCD_TOUCH_CONTROLLER_STMPE610
+                bool "STMPE610"
+            
+            config EXAMPLE_LCD_TOUCH_CONTROLLER_FT6336
+                bool "FT6336"
+        endchoice
+
+        config EXAMPLE_LCD_KEYBOARD_ENABLED
+            bool "启用LCD键盘"
+            help
+                启用此选项以使用显示屏键盘。
+    endchoice
+
+endmenu

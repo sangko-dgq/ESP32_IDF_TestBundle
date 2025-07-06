@@ -1,0 +1,37 @@
+[0;33m--- esp-idf-monitor 1.6.2 on /dev/ttyUSB0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d5b4d: SUB1_Callback at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/app/oled_menu.c:103
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d5b4a: SUB1_Callback at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/app/oled_menu.c:103
+--- 0x400d5c6a: MENU_KeyScan at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/app/oled_menu.c:203
+--- 0x400d57f1: button_single_click_cb at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d6726: button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../managed_components/espressif__button/iot_button.c:183
+--- 0x400d6ad8: button_cb at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../managed_components/espressif__button/iot_button.c:325
+--- 0x400d3af1: timer_process_alarm at /home/sangko/esp32_dev/esp-idf/components/esp_timer/src/esp_timer.c:453
+--- 0x400d3b39: timer_task at /home/sangko/esp32_dev/esp-idf/components/esp_timer/src/esp_timer.c:479
+--- 0x400868d9: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d5b4d: SUB1_Callback at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/app/oled_menu.c:103
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d5b4a: SUB1_Callback at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/app/oled_menu.c:103
+--- 0x400d5c6a: MENU_KeyScan at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/app/oled_menu.c:203
+--- 0x400d57f1: button_single_click_cb at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d6726: button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../managed_components/espressif__button/iot_button.c:183
+--- 0x400d6ad8: button_cb at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../managed_components/espressif__button/iot_button.c:325
+--- 0x400d3af1: timer_process_alarm at /home/sangko/esp32_dev/esp-idf/components/esp_timer/src/esp_timer.c:453
+--- 0x400d3b39: timer_task at /home/sangko/esp32_dev/esp-idf/components/esp_timer/src/esp_timer.c:479
+--- 0x400868d9: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0m

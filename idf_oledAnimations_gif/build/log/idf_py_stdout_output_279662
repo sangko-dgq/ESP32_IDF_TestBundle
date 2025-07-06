@@ -1,0 +1,22 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /home/sangko/esp32_dev/esp-test/my-test/oledAnimationsESP-IDF/build/bootloader/esp-idf/esptool_py && /home/sangko/.espressif/python_env/idf5.2_py3.8_env/bin/python /home/sangko/esp32_dev/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/sangko/esp32_dev/esp-test/my-test/oledAnimationsESP-IDF/build/bootloader/bootloader.bin
+Bootloader binary size 0x6850 bytes. 0x7b0 bytes (7%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+../main/main.c: In function 'app_main':
+../main/main.c:586:35: warning: passing argument 5 of 'showGIF' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+  586 |             showGIF(0 ,0, 64 ,64, gImage_test, i, 1);
+      |                                   ^~~~~~~~~~~
+../main/main.c:297:74: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'const unsigned char *'
+  297 | void showGIF(uint8_t column, uint8_t page, uint8_t w, uint8_t h, uint8_t pic_data[], uint8_t pic_frame, int color);
+      |                                                                  ~~~~~~~~^~~~~~~~~~
+[3/7] Linking C static library esp-idf/main/libmain.a
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable fastOled.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.9.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/sangko/esp32_dev/esp-test/my-test/oledAnimationsESP-IDF/build/fastOled.bin
+[7/7] cd /home/sangko/esp32_dev/esp-test/my-test/oledAnimationsESP-IDF/build/esp-idf/esptool_py && /home/sangko/.espressif/python_env/idf5.2_py3.8_env/bin/python /home/sangko/esp32_dev/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/sangko/esp32_dev/esp-test/my-test/oledAnimationsESP-IDF/build/partition_table/partition-table.bin /home/sangko/esp32_dev/esp-test/my-test/oledAnimationsESP-IDF/build/fastOled.bin
+fastOled.bin binary size 0x34a60 bytes. Smallest app partition is 0x100000 bytes. 0xcb5a0 bytes (79%) free.

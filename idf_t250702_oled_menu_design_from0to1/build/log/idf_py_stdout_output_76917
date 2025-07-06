@@ -1,0 +1,186 @@
+[0/1] Re-running CMake...
+-- Component directory /home/sangko/esp32_dev/esp-test/my-test/idf_t250702_oled_menu_design_from0to1/components/common does not contain a CMakeLists.txt file. No component will be added
+-- Component directory /home/sangko/esp32_dev/esp-test/my-test/idf_t250702_oled_menu_design_from0to1/components/common does not contain a CMakeLists.txt file. No component will be added
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/sangko/esp32_dev/esp-test/my-test/idf_t250702_oled_menu_design_from0to1/sdkconfig
+Loading defaults file /home/sangko/esp32_dev/esp-test/my-test/idf_t250702_oled_menu_design_from0to1/sdkconfig.defaults...
+/home/sangko/esp32_dev/esp-test/my-test/idf_t250702_oled_menu_design_from0to1/sdkconfig.defaults:3 CONFIG_ESP32_DEFAULT_CPU_FREQ_240 was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240
+/home/sangko/esp32_dev/esp-test/my-test/idf_t250702_oled_menu_design_from0to1/sdkconfig.defaults:4 CONFIG_ESP32_DEFAULT_CPU_FREQ_MHZ was replaced with CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ
+-- Compiler supported targets: xtensa-esp-elf
+-- App "idf_t250702_oled_menu_design_fr" version: 1
+-- Adding linker script /home/sangko/esp32_dev/esp-test/my-test/idf_t250702_oled_menu_design_from0to1/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/sangko/esp32_dev/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/sangko/esp32_dev/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/sangko/esp32_dev/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/sangko/esp32_dev/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/sangko/esp32_dev/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/sangko/esp32_dev/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/sangko/esp32_dev/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/sangko/esp32_dev/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bsp_button bsp_oled bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport test ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/sangko/esp32_dev/esp-idf/components/app_trace /home/sangko/esp32_dev/esp-idf/components/app_update /home/sangko/esp32_dev/esp-idf/components/bootloader /home/sangko/esp32_dev/esp-idf/components/bootloader_support /home/sangko/esp32_dev/esp-test/my-test/idf_t250702_oled_menu_design_from0to1/components/bsp_button /home/sangko/esp32_dev/esp-test/my-test/idf_t250702_oled_menu_design_from0to1/components/bsp_oled /home/sangko/esp32_dev/esp-idf/components/bt /home/sangko/esp32_dev/esp-idf/components/cmock /home/sangko/esp32_dev/esp-idf/components/console /home/sangko/esp32_dev/esp-idf/components/cxx /home/sangko/esp32_dev/esp-idf/components/driver /home/sangko/esp32_dev/esp-idf/components/efuse /home/sangko/esp32_dev/esp-idf/components/esp-tls /home/sangko/esp32_dev/esp-idf/components/esp_adc /home/sangko/esp32_dev/esp-idf/components/esp_app_format /home/sangko/esp32_dev/esp-idf/components/esp_bootloader_format /home/sangko/esp32_dev/esp-idf/components/esp_coex /home/sangko/esp32_dev/esp-idf/components/esp_common /home/sangko/esp32_dev/esp-idf/components/esp_eth /home/sangko/esp32_dev/esp-idf/components/esp_event /home/sangko/esp32_dev/esp-idf/components/esp_gdbstub /home/sangko/esp32_dev/esp-idf/components/esp_hid /home/sangko/esp32_dev/esp-idf/components/esp_http_client /home/sangko/esp32_dev/esp-idf/components/esp_http_server /home/sangko/esp32_dev/esp-idf/components/esp_https_ota /home/sangko/esp32_dev/esp-idf/components/esp_https_server /home/sangko/esp32_dev/esp-idf/components/esp_hw_support /home/sangko/esp32_dev/esp-idf/components/esp_lcd /home/sangko/esp32_dev/esp-idf/components/esp_local_ctrl /home/sangko/esp32_dev/esp-idf/components/esp_mm /home/sangko/esp32_dev/esp-idf/components/esp_netif /home/sangko/esp32_dev/esp-idf/components/esp_netif_stack /home/sangko/esp32_dev/esp-idf/components/esp_partition /home/sangko/esp32_dev/esp-idf/components/esp_phy /home/sangko/esp32_dev/esp-idf/components/esp_pm /home/sangko/esp32_dev/esp-idf/components/esp_psram /home/sangko/esp32_dev/esp-idf/components/esp_ringbuf /home/sangko/esp32_dev/esp-idf/components/esp_rom /home/sangko/esp32_dev/esp-idf/components/esp_system /home/sangko/esp32_dev/esp-idf/components/esp_timer /home/sangko/esp32_dev/esp-idf/components/esp_wifi /home/sangko/esp32_dev/esp-idf/components/espcoredump /home/sangko/esp32_dev/esp-idf/components/esptool_py /home/sangko/esp32_dev/esp-idf/components/fatfs /home/sangko/esp32_dev/esp-idf/components/freertos /home/sangko/esp32_dev/esp-idf/components/hal /home/sangko/esp32_dev/esp-idf/components/heap /home/sangko/esp32_dev/esp-idf/components/http_parser /home/sangko/esp32_dev/esp-idf/components/ieee802154 /home/sangko/esp32_dev/esp-idf/components/json /home/sangko/esp32_dev/esp-idf/components/log /home/sangko/esp32_dev/esp-idf/components/lwip /home/sangko/esp32_dev/esp-test/my-test/idf_t250702_oled_menu_design_from0to1/main /home/sangko/esp32_dev/esp-idf/components/mbedtls /home/sangko/esp32_dev/esp-idf/components/mqtt /home/sangko/esp32_dev/esp-idf/components/newlib /home/sangko/esp32_dev/esp-idf/components/nvs_flash /home/sangko/esp32_dev/esp-idf/components/nvs_sec_provider /home/sangko/esp32_dev/esp-idf/components/openthread /home/sangko/esp32_dev/esp-idf/components/partition_table /home/sangko/esp32_dev/esp-idf/components/perfmon /home/sangko/esp32_dev/esp-idf/components/protobuf-c /home/sangko/esp32_dev/esp-idf/components/protocomm /home/sangko/esp32_dev/esp-idf/components/pthread /home/sangko/esp32_dev/esp-idf/components/sdmmc /home/sangko/esp32_dev/esp-idf/components/soc /home/sangko/esp32_dev/esp-idf/components/spi_flash /home/sangko/esp32_dev/esp-idf/components/spiffs /home/sangko/esp32_dev/esp-idf/components/tcp_transport /home/sangko/esp32_dev/esp-test/my-test/idf_t250702_oled_menu_design_from0to1/components/test /home/sangko/esp32_dev/esp-idf/components/ulp /home/sangko/esp32_dev/esp-idf/components/unity /home/sangko/esp32_dev/esp-idf/components/usb /home/sangko/esp32_dev/esp-idf/components/vfs /home/sangko/esp32_dev/esp-idf/components/wear_levelling /home/sangko/esp32_dev/esp-idf/components/wifi_provisioning /home/sangko/esp32_dev/esp-idf/components/wpa_supplicant /home/sangko/esp32_dev/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sangko/esp32_dev/esp-test/my-test/idf_t250702_oled_menu_design_from0to1/build
+[1/50] Linking C static library esp-idf/sdmmc/libsdmmc.a
+[2/50] Linking C static library esp-idf/json/libjson.a
+[3/50] Building C object esp-idf/test/CMakeFiles/__idf_test.dir/button_test.c.obj
+FAILED: esp-idf/test/CMakeFiles/__idf_test.dir/button_test.c.obj 
+/home/sangko/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -DESP_PLATFORM -DIDF_VER=\"v5.2\" -DSOC_MMU_PAGE_SIZE=CONFIG_MMU_PAGE_SIZE -DSOC_XTAL_FREQ_MHZ=CONFIG_XTAL_FREQ -D_GLIBCXX_HAVE_POSIX_SEMAPHORE -D_GLIBCXX_USE_POSIX_SEMAPHORE -D_GNU_SOURCE -D_POSIX_READER_WRITER_LOCKS -Iconfig -I../components/test -I/home/sangko/esp32_dev/esp-idf/components/newlib/platform_include -I/home/sangko/esp32_dev/esp-idf/components/freertos/config/include -I/home/sangko/esp32_dev/esp-idf/components/freertos/config/include/freertos -I/home/sangko/esp32_dev/esp-idf/components/freertos/config/xtensa/include -I/home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/include -I/home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include -I/home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos -I/home/sangko/esp32_dev/esp-idf/components/freertos/esp_additions/include -I/home/sangko/esp32_dev/esp-idf/components/esp_hw_support/include -I/home/sangko/esp32_dev/esp-idf/components/esp_hw_support/include/soc -I/home/sangko/esp32_dev/esp-idf/components/esp_hw_support/include/soc/esp32 -I/home/sangko/esp32_dev/esp-idf/components/esp_hw_support/port/esp32/. -I/home/sangko/esp32_dev/esp-idf/components/heap/include -I/home/sangko/esp32_dev/esp-idf/components/log/include -I/home/sangko/esp32_dev/esp-idf/components/soc/include -I/home/sangko/esp32_dev/esp-idf/components/soc/esp32 -I/home/sangko/esp32_dev/esp-idf/components/soc/esp32/include -I/home/sangko/esp32_dev/esp-idf/components/hal/platform_port/include -I/home/sangko/esp32_dev/esp-idf/components/hal/esp32/include -I/home/sangko/esp32_dev/esp-idf/components/hal/include -I/home/sangko/esp32_dev/esp-idf/components/esp_rom/include -I/home/sangko/esp32_dev/esp-idf/components/esp_rom/include/esp32 -I/home/sangko/esp32_dev/esp-idf/components/esp_rom/esp32 -I/home/sangko/esp32_dev/esp-idf/components/esp_common/include -I/home/sangko/esp32_dev/esp-idf/components/esp_system/include -I/home/sangko/esp32_dev/esp-idf/components/esp_system/port/soc -I/home/sangko/esp32_dev/esp-idf/components/esp_system/port/include/private -I/home/sangko/esp32_dev/esp-idf/components/xtensa/esp32/include -I/home/sangko/esp32_dev/esp-idf/components/xtensa/include -I/home/sangko/esp32_dev/esp-idf/components/xtensa/deprecated_include -I/home/sangko/esp32_dev/esp-idf/components/lwip/include -I/home/sangko/esp32_dev/esp-idf/components/lwip/include/apps -I/home/sangko/esp32_dev/esp-idf/components/lwip/include/apps/sntp -I/home/sangko/esp32_dev/esp-idf/components/lwip/lwip/src/include -I/home/sangko/esp32_dev/esp-idf/components/lwip/port/include -I/home/sangko/esp32_dev/esp-idf/components/lwip/port/freertos/include -I/home/sangko/esp32_dev/esp-idf/components/lwip/port/esp32xx/include -I/home/sangko/esp32_dev/esp-idf/components/lwip/port/esp32xx/include/arch -I/home/sangko/esp32_dev/esp-idf/components/lwip/port/esp32xx/include/sys -I../components/bsp_button -I/home/sangko/esp32_dev/esp-idf/components/driver/include -I/home/sangko/esp32_dev/esp-idf/components/driver/deprecated -I/home/sangko/esp32_dev/esp-idf/components/driver/analog_comparator/include -I/home/sangko/esp32_dev/esp-idf/components/driver/dac/include -I/home/sangko/esp32_dev/esp-idf/components/driver/gpio/include -I/home/sangko/esp32_dev/esp-idf/components/driver/gptimer/include -I/home/sangko/esp32_dev/esp-idf/components/driver/i2c/include -I/home/sangko/esp32_dev/esp-idf/components/driver/i2s/include -I/home/sangko/esp32_dev/esp-idf/components/driver/ledc/include -I/home/sangko/esp32_dev/esp-idf/components/driver/mcpwm/include -I/home/sangko/esp32_dev/esp-idf/components/driver/parlio/include -I/home/sangko/esp32_dev/esp-idf/components/driver/pcnt/include -I/home/sangko/esp32_dev/esp-idf/components/driver/rmt/include -I/home/sangko/esp32_dev/esp-idf/components/driver/sdio_slave/include -I/home/sangko/esp32_dev/esp-idf/components/driver/sdmmc/include -I/home/sangko/esp32_dev/esp-idf/components/driver/sigma_delta/include -I/home/sangko/esp32_dev/esp-idf/components/driver/spi/include -I/home/sangko/esp32_dev/esp-idf/components/driver/temperature_sensor/include -I/home/sangko/esp32_dev/esp-idf/components/driver/touch_sensor/include -I/home/sangko/esp32_dev/esp-idf/components/driver/twai/include -I/home/sangko/esp32_dev/esp-idf/components/driver/uart/include -I/home/sangko/esp32_dev/esp-idf/components/driver/usb_serial_jtag/include -I/home/sangko/esp32_dev/esp-idf/components/driver/touch_sensor/esp32/include -I/home/sangko/esp32_dev/esp-idf/components/esp_pm/include -I/home/sangko/esp32_dev/esp-idf/components/esp_ringbuf/include -I/home/sangko/esp32_dev/esp-idf/components/esp_timer/include -mlongcalls -Wno-frame-address    -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=unused-but-set-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -Wno-enum-conversion -gdwarf-4 -ggdb -Og -fno-shrink-wrap -fmacro-prefix-map=/home/sangko/esp32_dev/esp-test/my-test/idf_t250702_oled_menu_design_from0to1=. -fmacro-prefix-map=/home/sangko/esp32_dev/esp-idf=/IDF -fstrict-volatile-bitfields -fno-jump-tables -fno-tree-switch-conversion -Wno-error -std=gnu17 -Wno-old-style-declaration -MD -MT esp-idf/test/CMakeFiles/__idf_test.dir/button_test.c.obj -MF esp-idf/test/CMakeFiles/__idf_test.dir/button_test.c.obj.d -o esp-idf/test/CMakeFiles/__idf_test.dir/button_test.c.obj   -c ../components/test/button_test.c
+../components/test/button_test.c: In function 'simple_btn_test':
+../components/test/button_test.c:14:5: error: unknown type name 'gpio_config_t'; did you mean 'button_config_t'?
+   14 |     gpio_config_t gpio_t =
+      |     ^~~~~~~~~~~~~
+      |     button_config_t
+../components/test/button_test.c:16:9: error: field name not in record or union initializer
+   16 |         .intr_type = GPIO_INTR_DISABLE,     //禁止中断
+      |         ^
+../components/test/button_test.c:16:9: note: (near initialization for 'gpio_t')
+../components/test/button_test.c:16:22: error: 'GPIO_INTR_DISABLE' undeclared (first use in this function)
+   16 |         .intr_type = GPIO_INTR_DISABLE,     //禁止中断
+      |                      ^~~~~~~~~~~~~~~~~
+../components/test/button_test.c:16:22: note: each undeclared identifier is reported only once for each function it appears in
+../components/test/button_test.c:17:9: error: field name not in record or union initializer
+   17 |         .mode = GPIO_MODE_INPUT,            //输入模式
+      |         ^
+../components/test/button_test.c:17:9: note: (near initialization for 'gpio_t')
+../components/test/button_test.c:17:17: error: 'GPIO_MODE_INPUT' undeclared (first use in this function)
+   17 |         .mode = GPIO_MODE_INPUT,            //输入模式
+      |                 ^~~~~~~~~~~~~~~
+../components/test/button_test.c:17:17: warning: excess elements in scalar initializer
+../components/test/button_test.c:17:17: note: (near initialization for 'gpio_t')
+../components/test/button_test.c:18:9: error: field name not in record or union initializer
+   18 |         .pin_bit_mask = (1ull<<BTN_GPIO),   //GPIO引脚号
+      |         ^
+../components/test/button_test.c:18:9: note: (near initialization for 'gpio_t')
+In file included from ../components/test/button_test.c:1:
+../components/test/button_test.h:7:21: error: 'GPIO_NUM_25' undeclared (first use in this function)
+    7 | #define BTN_GPIO    GPIO_NUM_25
+      |                     ^~~~~~~~~~~
+../components/test/button_test.c:18:32: note: in expansion of macro 'BTN_GPIO'
+   18 |         .pin_bit_mask = (1ull<<BTN_GPIO),   //GPIO引脚号
+      |                                ^~~~~~~~
+../components/test/button_test.c:18:25: warning: excess elements in scalar initializer
+   18 |         .pin_bit_mask = (1ull<<BTN_GPIO),   //GPIO引脚号
+      |                         ^
+../components/test/button_test.c:18:25: note: (near initialization for 'gpio_t')
+../components/test/button_test.c:19:9: error: field name not in record or union initializer
+   19 |         .pull_down_en = GPIO_PULLDOWN_DISABLE,  //禁止下拉
+      |         ^
+../components/test/button_test.c:19:9: note: (near initialization for 'gpio_t')
+../components/test/button_test.c:19:25: error: 'GPIO_PULLDOWN_DISABLE' undeclared (first use in this function)
+   19 |         .pull_down_en = GPIO_PULLDOWN_DISABLE,  //禁止下拉
+      |                         ^~~~~~~~~~~~~~~~~~~~~
+../components/test/button_test.c:19:25: warning: excess elements in scalar initializer
+../components/test/button_test.c:19:25: note: (near initialization for 'gpio_t')
+../components/test/button_test.c:20:9: error: field name not in record or union initializer
+   20 |         .pull_up_en = GPIO_PULLUP_ENABLE,   //使能上拉
+      |         ^
+../components/test/button_test.c:20:9: note: (near initialization for 'gpio_t')
+../components/test/button_test.c:20:23: error: 'GPIO_PULLUP_ENABLE' undeclared (first use in this function)
+   20 |         .pull_up_en = GPIO_PULLUP_ENABLE,   //使能上拉
+      |                       ^~~~~~~~~~~~~~~~~~
+../components/test/button_test.c:20:23: warning: excess elements in scalar initializer
+../components/test/button_test.c:20:23: note: (near initialization for 'gpio_t')
+In file included from ../components/bsp_button/button.h:3,
+                 from ../components/test/button_test.h:4:
+../components/test/button_test.c:22:21: error: implicit declaration of function 'gpio_config' [-Werror=implicit-function-declaration]
+   22 |     ESP_ERROR_CHECK(gpio_config(&gpio_t));
+      |                     ^~~~~~~~~~~
+/home/sangko/esp32_dev/esp-idf/components/esp_common/include/esp_err.h:117:30: note: in definition of macro 'ESP_ERROR_CHECK'
+  117 |         esp_err_t err_rc_ = (x);                                        \
+      |                              ^
+../components/test/button_test.c:26:12: error: implicit declaration of function 'gpio_get_level' [-Werror=implicit-function-declaration]
+   26 |         if(gpio_get_level(BTN_GPIO) == 0)
+      |            ^~~~~~~~~~~~~~
+../components/test/button_test.c:27:13: error: implicit declaration of function 'gpio_set_level' [-Werror=implicit-function-declaration]
+   27 |             gpio_set_level(LED_GPIO,1);
+      |             ^~~~~~~~~~~~~~
+../components/test/button_test.c:27:28: error: 'LED_GPIO' undeclared (first use in this function)
+   27 |             gpio_set_level(LED_GPIO,1);
+      |                            ^~~~~~~~
+../components/test/button_test.c:30:9: error: implicit declaration of function 'vTaskDelay' [-Werror=implicit-function-declaration]
+   30 |         vTaskDelay(pdMS_TO_TICKS(50));
+      |         ^~~~~~~~~~
+../components/test/button_test.c:30:20: error: implicit declaration of function 'pdMS_TO_TICKS' [-Werror=implicit-function-declaration]
+   30 |         vTaskDelay(pdMS_TO_TICKS(50));
+      |                    ^~~~~~~~~~~~~
+../components/test/button_test.c: At top level:
+../components/test/button_test.c:35:8: error: unknown type name 'EventGroupHandle_t'
+   35 | static EventGroupHandle_t s_pressEvent;
+      |        ^~~~~~~~~~~~~~~~~~
+../components/test/button_test.c: In function 'short_press_handle':
+../components/test/button_test.c:45:5: error: implicit declaration of function 'xEventGroupSetBits' [-Werror=implicit-function-declaration]
+   45 |     xEventGroupSetBits(s_pressEvent,SHORT_EV);
+      |     ^~~~~~~~~~~~~~~~~~
+../components/test/button_test.c:36:21: error: 'BIT0' undeclared (first use in this function)
+   36 | #define SHORT_EV    BIT0    //短按
+      |                     ^~~~
+../components/test/button_test.c:45:37: note: in expansion of macro 'SHORT_EV'
+   45 |     xEventGroupSetBits(s_pressEvent,SHORT_EV);
+      |                                     ^~~~~~~~
+../components/test/button_test.c: In function 'long_press_handle':
+../components/test/button_test.c:37:21: error: 'BIT1' undeclared (first use in this function)
+   37 | #define LONG_EV     BIT1    //长按
+      |                     ^~~~
+../components/test/button_test.c:54:37: note: in expansion of macro 'LONG_EV'
+   54 |     xEventGroupSetBits(s_pressEvent,LONG_EV);
+      |                                     ^~~~~~~
+../components/test/button_test.c: In function 'complete_btn_test':
+../components/test/button_test.c:64:20: error: implicit declaration of function 'xEventGroupCreate' [-Werror=implicit-function-declaration]
+   64 |     s_pressEvent = xEventGroupCreate();
+      |                    ^~~~~~~~~~~~~~~~~
+../components/test/button_test.h:7:21: error: 'GPIO_NUM_25' undeclared (first use in this function)
+    7 | #define BTN_GPIO    GPIO_NUM_25
+      |                     ^~~~~~~~~~~
+../components/test/button_test.c:67:21: note: in expansion of macro 'BTN_GPIO'
+   67 |         .gpio_num = BTN_GPIO,       //gpio号
+      |                     ^~~~~~~~
+../components/test/button_test.c:74:5: error: unknown type name 'EventBits_t'
+   74 |     EventBits_t ev;
+      |     ^~~~~~~~~~~
+../components/test/button_test.c:78:14: error: implicit declaration of function 'xEventGroupWaitBits' [-Werror=implicit-function-declaration]
+   78 |         ev = xEventGroupWaitBits(s_pressEvent,SHORT_EV|LONG_EV,pdTRUE,pdFALSE,portMAX_DELAY);
+      |              ^~~~~~~~~~~~~~~~~~~
+../components/test/button_test.c:36:21: error: 'BIT0' undeclared (first use in this function)
+   36 | #define SHORT_EV    BIT0    //短按
+      |                     ^~~~
+../components/test/button_test.c:78:47: note: in expansion of macro 'SHORT_EV'
+   78 |         ev = xEventGroupWaitBits(s_pressEvent,SHORT_EV|LONG_EV,pdTRUE,pdFALSE,portMAX_DELAY);
+      |                                               ^~~~~~~~
+../components/test/button_test.c:37:21: error: 'BIT1' undeclared (first use in this function)
+   37 | #define LONG_EV     BIT1    //长按
+      |                     ^~~~
+../components/test/button_test.c:78:56: note: in expansion of macro 'LONG_EV'
+   78 |         ev = xEventGroupWaitBits(s_pressEvent,SHORT_EV|LONG_EV,pdTRUE,pdFALSE,portMAX_DELAY);
+      |                                                        ^~~~~~~
+../components/test/button_test.c:78:64: error: 'pdTRUE' undeclared (first use in this function)
+   78 |         ev = xEventGroupWaitBits(s_pressEvent,SHORT_EV|LONG_EV,pdTRUE,pdFALSE,portMAX_DELAY);
+      |                                                                ^~~~~~
+../components/test/button_test.c:78:71: error: 'pdFALSE' undeclared (first use in this function)
+   78 |         ev = xEventGroupWaitBits(s_pressEvent,SHORT_EV|LONG_EV,pdTRUE,pdFALSE,portMAX_DELAY);
+      |                                                                       ^~~~~~~
+../components/test/button_test.c:78:79: error: 'portMAX_DELAY' undeclared (first use in this function)
+   78 |         ev = xEventGroupWaitBits(s_pressEvent,SHORT_EV|LONG_EV,pdTRUE,pdFALSE,portMAX_DELAY);
+      |                                                                               ^~~~~~~~~~~~~
+../components/test/button_test.c:82:28: error: 'LED_GPIO' undeclared (first use in this function)
+   82 |             gpio_set_level(LED_GPIO,1);
+      |                            ^~~~~~~~
+../components/test/button_test.c:97:9: error: implicit declaration of function 'xEventGroupClearBits' [-Werror=implicit-function-declaration]
+   97 |         xEventGroupClearBits(s_pressEvent,SHORT_EV);
+      |         ^~~~~~~~~~~~~~~~~~~~
+cc1: some warnings being treated as errors
+[4/50] Building C object esp-idf/bsp_button/CMakeFiles/__idf_bsp_button.dir/button.c.obj
+[5/50] Performing build step for 'bootloader'
+[1/1] cd /home/sangko/esp32_dev/esp-test/my-test/idf_t250702_oled_menu_design_from0to1/build/bootloader/esp-idf/esptool_py && /home/sangko/.espressif/python_env/idf5.2_py3.8_env/bin/python /home/sangko/esp32_dev/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/sangko/esp32_dev/esp-test/my-test/idf_t250702_oled_menu_design_from0to1/build/bootloader/bootloader.bin
+Bootloader binary size 0x6850 bytes. 0x7b0 bytes (7%) free.
+[6/48] Building C object esp-idf/nvs_sec_provider/CMakeFiles/__idf_nvs_sec_provider.dir/nvs_sec_provider.c.obj
+[7/48] Linking C static library esp-idf/fatfs/libfatfs.a
+[8/48] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/platform_esp32_idf.c.obj
+[9/48] Building C object esp-idf/perfmon/CMakeFiles/__idf_perfmon.dir/xtensa_perfmon_masks.c.obj
+[10/48] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_outbox.c.obj
+[11/48] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/lib/mqtt_msg.c.obj
+[12/48] Building C object esp-idf/mqtt/CMakeFiles/__idf_mqtt.dir/esp-mqtt/mqtt_client.c.obj
+ninja: build stopped: subcommand failed.

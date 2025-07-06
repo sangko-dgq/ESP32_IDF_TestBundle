@@ -1,0 +1,16 @@
+{
+    "python.formatting.provider": "yapf",
+    "idf.pythonInstallPath": "/home/sangko/.espressif/python_env/idf5.2_py3.8_env/bin/python",
+    "files.associations": {
+        "anibuf.h": "c",
+        "task.h": "c",
+        "cdefs.h": "c",
+        "esp_lcd_panel_interface.h": "c",
+        "stdbool.h": "c",
+        "stdio.h": "c",
+        "freertos.h": "c",
+        "i2c.h": "c",
+        "cstdint": "c",
+        "stdint.h": "c"
+    }
+}

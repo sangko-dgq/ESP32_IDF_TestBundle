@@ -1,0 +1,28 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/bootloader/esp-idf/esptool_py && /home/sangko/.espressif/python_env/idf5.2_py3.8_env/bin/python /home/sangko/esp32_dev/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/bootloader/bootloader.bin
+Bootloader binary size 0x6850 bytes. 0x7b0 bytes (7%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/idf_t3_oled_basicII2.c.obj
+../main/idf_t3_oled_basicII2.c: In function 'app_main':
+../main/idf_t3_oled_basicII2.c:47:44: warning: passing argument 3 of 'button_attach' from incompatible pointer type [-Wincompatible-pointer-types]
+   47 |     button_attach(&btn1, BTN_SINGLE_CLICK, btn1_single_click_handler);
+      |                                            ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                            |
+      |                                            void (*)(void *)
+In file included from ../main/idf_t3_oled_basicII2.c:23:
+../components/MultiButton/multi_button.h:68:67: note: expected 'BtnCallback' {aka 'void (*)(struct _Button *)'} but argument is of type 'void (*)(void *)'
+   68 | void button_attach(Button* handle, ButtonEvent event, BtnCallback cb);
+      |                                                       ~~~~~~~~~~~~^~
+../main/idf_t3_oled_basicII2.c:59:13: warning: unused variable 'key' [-Wunused-variable]
+   59 |     uint8_t key;
+      |             ^~~
+[3/7] Linking C static library esp-idf/main/libmain.a
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable idf_t3_oled_basicII2.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.9.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/idf_t3_oled_basicII2.bin
+[7/7] cd /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/esp-idf/esptool_py && /home/sangko/.espressif/python_env/idf5.2_py3.8_env/bin/python /home/sangko/esp32_dev/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/partition_table/partition-table.bin /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/idf_t3_oled_basicII2.bin
+idf_t3_oled_basicII2.bin binary size 0x321d0 bytes. Smallest app partition is 0x100000 bytes. 0xcde30 bytes (80%) free.

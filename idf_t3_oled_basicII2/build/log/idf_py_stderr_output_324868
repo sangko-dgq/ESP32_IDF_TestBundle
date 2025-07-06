@@ -1,0 +1,974 @@
+[0;33m--- esp-idf-monitor 1.6.2 on /dev/ttyUSB0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: strlen in ROM
+--- 0x4000150d: strlen in ROM
+[0m
+[0;33m--- 0x400d8f45: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+--- 0x400d83ef: printf at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+--- 0x400d528f: read_button_gpio at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:33
+--- 0x400d52f9: button_read_level at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:119
+---  (inlined by) button_handler at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:129
+--- 0x400d56a7: button_ticks at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../components/MultiButton/multi_button.c:290
+--- 0x400d52e4: app_main at /home/sangko/esp32_dev/esp-test/my-test/idf_t3_oled_basicII2/build/../main/idf_t3_oled_basicII2.c:101
+--- 0x400e30a8: main_task at /home/sangko/esp32_dev/esp-idf/components/freertos/app_startup.c:208
+--- 0x40086021: vPortTaskWrapper at /home/sangko/esp32_dev/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d8f48: _vfprintf_r at /builds/idf/crosstool-NG/.build/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m--- 0x400014fd: st

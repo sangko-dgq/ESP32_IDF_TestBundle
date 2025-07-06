@@ -1,0 +1,16 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.pythonInstallPath": "/home/sangko/.espressif/python_env/idf5.2_py3.8_env/bin/python",
+  "files.associations": {
+    "freertos.h": "c",
+    "task.h": "c",
+    "oled_menu_keys.h": "c",
+    "gpio.h": "c",
+    "multi_button.h": "c",
+    "portmacro.h": "c",
+    "signal.h": "c",
+    "oled_menu.h": "c",
+    "button_gpio.h": "c",
+    "oled.h": "c"
+  }
+}

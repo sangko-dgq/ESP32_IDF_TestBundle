@@ -1,0 +1,49 @@
+-- Existing sdkconfig '/home/sangko/esp32_dev/esp-test/my-test/helloworld/sdkconfig' renamed to '/home/sangko/esp32_dev/esp-test/my-test/helloworld/sdkconfig.old'.
+-- Found Git: /usr/bin/git (found version "2.25.1") 
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/sangko/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc
+-- Check for working C compiler: /home/sangko/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc
+-- Check for working C compiler: /home/sangko/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /home/sangko/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-g++
+-- Check for working CXX compiler: /home/sangko/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin/xtensa-esp32-elf-g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/sangko/esp32_dev/esp-test/my-test/helloworld/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /home/sangko/.espressif/python_env/idf5.2_py3.8_env/bin/python (found version "3.8.10") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "main" version: 1
+-- Adding linker script /home/sangko/esp32_dev/esp-test/my-test/helloworld/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/sangko/esp32_dev/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/sangko/esp32_dev/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/sangko/esp32_dev/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/sangko/esp32_dev/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/sangko/esp32_dev/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/sangko/esp32_dev/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/sangko/esp32_dev/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/sangko/esp32_dev/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/sangko/esp32_dev/esp-idf/components/app_trace /home/sangko/esp32_dev/esp-idf/components/app_update /home/sangko/esp32_dev/esp-idf/components/bootloader /home/sangko/esp32_dev/esp-idf/components/bootloader_support /home/sangko/esp32_dev/esp-idf/components/bt /home/sangko/esp32_dev/esp-idf/components/cmock /home/sangko/esp32_dev/esp-idf/components/console /home/sangko/esp32_dev/esp-idf/components/cxx /home/sangko/esp32_dev/esp-idf/components/driver /home/sangko/esp32_dev/esp-idf/components/efuse /home/sangko/esp32_dev/esp-idf/components/esp-tls /home/sangko/esp32_dev/esp-idf/components/esp_adc /home/sangko/esp32_dev/esp-idf/components/esp_app_format /home/sangko/esp32_dev/esp-idf/components/esp_bootloader_format /home/sangko/esp32_dev/esp-idf/components/esp_coex /home/sangko/esp32_dev/esp-idf/components/esp_common /home/sangko/esp32_dev/esp-idf/components/esp_eth /home/sangko/esp32_dev/esp-idf/components/esp_event /home/sangko/esp32_dev/esp-idf/components/esp_gdbstub /home/sangko/esp32_dev/esp-idf/components/esp_hid /home/sangko/esp32_dev/esp-idf/components/esp_http_client /home/sangko/esp32_dev/esp-idf/components/esp_http_server /home/sangko/esp32_dev/esp-idf/components/esp_https_ota /home/sangko/esp32_dev/esp-idf/components/esp_https_server /home/sangko/esp32_dev/esp-idf/components/esp_hw_support /home/sangko/esp32_dev/esp-idf/components/esp_lcd /home/sangko/esp32_dev/esp-idf/components/esp_local_ctrl /home/sangko/esp32_dev/esp-idf/components/esp_mm /home/sangko/esp32_dev/esp-idf/components/esp_netif /home/sangko/esp32_dev/esp-idf/components/esp_netif_stack /home/sangko/esp32_dev/esp-idf/components/esp_partition /home/sangko/esp32_dev/esp-idf/components/esp_phy /home/sangko/esp32_dev/esp-idf/components/esp_pm /home/sangko/esp32_dev/esp-idf/components/esp_psram /home/sangko/esp32_dev/esp-idf/components/esp_ringbuf /home/sangko/esp32_dev/esp-idf/components/esp_rom /home/sangko/esp32_dev/esp-idf/components/esp_system /home/sangko/esp32_dev/esp-idf/components/esp_timer /home/sangko/esp32_dev/esp-idf/components/esp_wifi /home/sangko/esp32_dev/esp-idf/components/espcoredump /home/sangko/esp32_dev/esp-idf/components/esptool_py /home/sangko/esp32_dev/esp-idf/components/fatfs /home/sangko/esp32_dev/esp-idf/components/freertos /home/sangko/esp32_dev/esp-idf/components/hal /home/sangko/esp32_dev/esp-idf/components/heap /home/sangko/esp32_dev/esp-idf/components/http_parser /home/sangko/esp32_dev/esp-idf/components/idf_test /home/sangko/esp32_dev/esp-idf/components/ieee802154 /home/sangko/esp32_dev/esp-idf/components/json /home/sangko/esp32_dev/esp-idf/components/log /home/sangko/esp32_dev/esp-idf/components/lwip /home/sangko/esp32_dev/esp-test/my-test/helloworld/main /home/sangko/esp32_dev/esp-idf/components/mbedtls /home/sangko/esp32_dev/esp-idf/components/mqtt /home/sangko/esp32_dev/esp-idf/components/newlib /home/sangko/esp32_dev/esp-idf/components/nvs_flash /home/sangko/esp32_dev/esp-idf/components/nvs_sec_provider /home/sangko/esp32_dev/esp-idf/components/openthread /home/sangko/esp32_dev/esp-idf/components/partition_table /home/sangko/esp32_dev/esp-idf/components/perfmon /home/sangko/esp32_dev/esp-idf/components/protobuf-c /home/sangko/esp32_dev/esp-idf/components/protocomm /home/sangko/esp32_dev/esp-idf/components/pthread /home/sangko/esp32_dev/esp-idf/components/sdmmc /home/sangko/esp32_dev/esp-idf/components/soc /home/sangko/esp32_dev/esp-idf/components/spi_flash /home/sangko/esp32_dev/esp-idf/components/spiffs /home/sangko/esp32_dev/esp-idf/components/tcp_transport /home/sangko/esp32_dev/esp-idf/components/ulp /home/sangko/esp32_dev/esp-idf/components/unity /home/sangko/esp32_dev/esp-idf/components/usb /home/sangko/esp32_dev/esp-idf/components/vfs /home/sangko/esp32_dev/esp-idf/components/wear_levelling /home/sangko/esp32_dev/esp-idf/components/wifi_provisioning /home/sangko/esp32_dev/esp-idf/components/wpa_supplicant /home/sangko/esp32_dev/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sangko/esp32_dev/esp-test/my-test/helloworld/build

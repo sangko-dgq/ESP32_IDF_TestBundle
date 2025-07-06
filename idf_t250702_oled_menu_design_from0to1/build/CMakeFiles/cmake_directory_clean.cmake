@@ -1,0 +1,11 @@
+file(REMOVE_RECURSE
+  "config/sdkconfig.h"
+  "config/sdkconfig.cmake"
+  "bootloader/bootloader.elf"
+  "bootloader/bootloader.bin"
+  "bootloader/bootloader.map"
+  "idf_t250702_oled_menu_design_from0to1.bin"
+  "flash_project_args"
+  "idf_t250702_oled_menu_design_from0to1.map"
+  "project_elf_src_esp32.c"
+)

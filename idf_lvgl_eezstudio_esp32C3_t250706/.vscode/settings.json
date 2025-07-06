@@ -1,0 +1,18 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.pythonInstallPath": "/home/sangko/.espressif/python_env/idf5.2_py3.8_env/bin/python",
+  "files.associations": {
+    "eez-flow.h": "c",
+    "complex": "c",
+    "cstdlib": "c",
+    "esp_lcd_touch_ft5x06.h": "c",
+    "lv_demos.h": "c",
+    "esp_lcd_panel_ops.h": "c",
+    "screens.h": "c",
+    "bsp_key.h": "c",
+    "bsp_gpio.h": "c",
+    "gpio.h": "c",
+    "bsp_buzzer.h": "c"
+  },
+  "idf.flashType": "UART"
+}

@@ -1,0 +1,6 @@
+source "/home/sangko/esp32_dev/esp-idf/components/bootloader/Kconfig.projbuild"
+source "/home/sangko/esp32_dev/esp-idf/components/esp_app_format/Kconfig.projbuild"
+source "/home/sangko/esp32_dev/esp-idf/components/esp_rom/Kconfig.projbuild"
+source "/home/sangko/esp32_dev/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "/home/sangko/esp32_dev/esp-idf/components/partition_table/Kconfig.projbuild"
+source "/home/sangko/esp32_dev/esp-test/my-test/idf_lvgl_eezstudio_esp32C3_t250706/main/Kconfig.projbuild"
