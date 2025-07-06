@@ -14,4 +14,5 @@ win使用GUI工具souretree对win上的仓库push到github
 
 linux使用GUI工具lazygit或shell同步到github
 
- [how](.\docs\how.png) 
+
+![how](./docs/how.png)
